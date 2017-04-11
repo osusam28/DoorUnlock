@@ -1,0 +1,52 @@
+body {
+	background: linear-gradient(#551a8b, #330f53);
+}
+
+.login-window {
+	width: 100%;
+	margin-top: 8em;
+	height: 15em;
+}
+
+.login-window div:first-child {
+	float: left;
+	width: 30%;
+	height: 100%;
+}
+
+.login-window div:last-child {
+	float: left;
+	width: 30%;
+	height: 100%;
+}
+
+.login {
+	float: left;
+	width: 40%;
+	height: 100%;
+}
+
+.login label {
+	float: left;
+	color: white;
+}
+
+.textbox {
+	float: left;
+	width: 100%;
+	border: inset;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+.button {
+	float: left;
+	width: 50%;
+}
+
+@media screen and (max-width: 1024px) {	
+	.login-window {
+		height: 10em;
+		margin-top: 5em;
+	}
+}

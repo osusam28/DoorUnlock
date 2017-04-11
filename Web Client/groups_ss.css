@@ -1,0 +1,27 @@
+.group {
+	float: left;
+	height: 4em;
+	width: 100%;
+	background-color: #551a8b;
+	background: linear-gradient(#551a8b, #330f53);
+	text-decoration: none;
+	color: white;
+}
+
+.group:active {
+	background-color: #551a8b;
+	background: linear-gradient(#330f53, #551a8b);
+}
+
+.group div {
+	float: left;
+	padding: 0.5em;
+	padding-top: 1em;
+	font-size: 1.2em;
+}
+
+.group div:last-child {
+	float: right;
+	padding-top: 0.2em;
+	font-size: 2.5em;
+}

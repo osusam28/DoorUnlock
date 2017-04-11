@@ -1,0 +1,56 @@
+.group {
+	float: left;
+	height: 4em;
+	width: 100%;
+	background-color: #551a8b;
+	background: linear-gradient(#551a8b, #330f53);
+	text-decoration: none;
+	color: white;
+}
+
+.group:active {
+	background-color: #551a8b;
+	background: linear-gradient(#330f53, #551a8b);
+}
+
+.group div {
+	float: left;
+	padding: 0.5em;
+	padding-top: 1em;
+	font-size: 1.2em;
+}
+
+.group div:first-child {
+	float: right;
+	padding-top: 0.2em;
+	font-size: 2.5em;
+}
+
+.dvc {
+	float: left;
+	width: 100%;
+	height: 4em;
+}
+
+.dvc-text {
+	margin-top: 0.75em;
+	font-size: 1em;
+	color: white;
+}
+
+.button {
+	float: left;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 0.75em;
+	width: 90%;
+	height: 2.5em;
+	border-radius: 1.25em;
+	background: gray;
+	text-align: center;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.button:active {
+	box-shadow: none;
+}
